@@ -1,0 +1,20 @@
+
+server:
+    port: 9583
+spring:
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+     
+
+conf:
+ ganglia: 8649
+ filterFile: D:\\\\wdoc\\\\0628\\\\testplc\\\\config\\\\rules.txt
+ ifluxdb:
+  url: http://192.168.2.171:8086
+  org: my-org
+  bucket: test_db
+ 
+ 
+
+ 
